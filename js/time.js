@@ -292,9 +292,7 @@ function startDays()
     days_text.textContent = "days";
   }
 
-  setInterval(function() 
-    var points = textDays.textToPoints(toText(_day), width/6.2, height/1.5, 125, {sampleFactor: 0.125, simplifyThreshold: 0});
-    
+  setInterval(function() {
     var points = textDays.textToPoints(toText(_day), width/7.2, height/1.55, 111, {sampleFactor: 0.125, simplifyThreshold: 0});
     particlesDays = [];
     for(var i = 0; i < points.length; i++)
