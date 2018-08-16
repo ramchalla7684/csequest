@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="author" content="Ram Challa">
-<meta name="description" content="One of the events of Quest, 2018 at JNTUH">
+  <meta name="description" content="One of the events of Quest, 2018 at JNTUH">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta http-equiv="cache-control" content="no-cache" />
@@ -24,15 +25,16 @@
 
 
   <script src="../js/event.js"></script>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+    crossorigin="anonymous"></script>
 
   <script src="../../p5/p5.min.js"></script>
 
 
   <title>inQUIZite</title>
 </head>
+
 <body>
 
   <header>
@@ -65,283 +67,285 @@
           </g>
         </svg>
 
-</div>
+      </div>
 
 
-</div>
-
-
-
-<div class="hamburger hamburger_icon hover" id="hamburger_icon">
-  <span class="hamburger_line" id="hamburger_line"></span>
-</div>
-
-<div id="nav_wrapper">
-  <nav class="menu open_menu">
-    <ul id="list">
-      <li><a href="/csequest/workshops">Workshops</a></li>
-      <li><a href="/csequest/events">Events</a></li>
-      <li><a href="/csequest/gallery">Gallery</a></li>
-    </ul>
-  </nav>
-</div>
-
-
-</header>
-
-<section>
-
-  <div class="rings">
-    <span class="span-1"></span>
-    <span class="span-2"></span>
-    <span class="span-3"></span>
-  </div>
-
-  <div class="poster_container">
-    <img src="images/inquizite.png" alt="">
-  </div>
-
-  <div class="time_wrapper" id="time" data-on = "March 4 2018 10:00 AM">
-    <div class="time_days">
-      <canvas id="canvas_days">
-
-      </canvas>
-
-      <h4 id="days_text">Days</h4>
     </div>
 
-    <div class="time_hours">
-      <canvas id="canvas_hours">
 
-      </canvas>
 
-      <h4 id="hours_text">Hours</h4>
+    <div class="hamburger hamburger_icon hover" id="hamburger_icon">
+      <span class="hamburger_line" id="hamburger_line"></span>
     </div>
 
-    <div class="time_minutes">
-      <canvas id="canvas_minutes">
-
-      </canvas>
-      <h4 id="minutes_text">Minutes</h4>
+    <div id="nav_wrapper">
+      <nav class="menu open_menu">
+        <ul id="list">
+          <li>
+            <a href="/csequest/workshops">Workshops</a>
+          </li>
+          <li>
+            <a href="/csequest/events">Events</a>
+          </li>
+          <li>
+            <a href="/csequest/gallery">Gallery</a>
+          </li>
+        </ul>
+      </nav>
     </div>
 
-    <div class="time_seconds">
-      <canvas id="canvas_seconds">
 
-      </canvas>
-      <h4 id="seconds_text">Seconds</h4>
+  </header>
+
+  <section>
+
+    <div class="rings">
+      <span class="span-1"></span>
+      <span class="span-2"></span>
+      <span class="span-3"></span>
     </div>
-  </div>
 
-  <div class="details_container">
+    <div class="poster_container">
+      <img src="images/inquizite.png" alt="">
+    </div>
 
-    <div class="about">
-      <h3>About</h3>
-      <p>inQUIZite is a technical quiz competition going to be organised by computer sience and engineering department of JNTUH. The quiz competition is based on technical questions related
-        to computer science and technology. It contains total of 3 rounds .
-        The team should consist atmost 2 members. Both the team mates(if the team consists 2 members) should participate in the first round which is an online round from
-        March 4th onwards available in this official website of quest.
-        All the participants are required to register in the link given below.
+    <div class="time_wrapper" id="time" data-on="March 4 2018 10:00 AM">
+      <div class="time_days">
+        <canvas id="canvas_days">
+
+        </canvas>
+
+        <h4 id="days_text">Days</h4>
+      </div>
+
+      <div class="time_hours">
+        <canvas id="canvas_hours">
+
+        </canvas>
+
+        <h4 id="hours_text">Hours</h4>
+      </div>
+
+      <div class="time_minutes">
+        <canvas id="canvas_minutes">
+
+        </canvas>
+        <h4 id="minutes_text">Minutes</h4>
+      </div>
+
+      <div class="time_seconds">
+        <canvas id="canvas_seconds">
+
+        </canvas>
+        <h4 id="seconds_text">Seconds</h4>
+      </div>
+    </div>
+
+    <div class="details_container">
+
+      <div class="about">
+        <h3>About</h3>
+        <p>inQUIZite is a technical quiz competition going to be organised by computer sience and engineering department of
+          JNTUH. The quiz competition is based on technical questions related to computer science and technology. It contains
+          total of 3 rounds . The team should consist atmost 2 members. Both the team mates(if the team consists 2 members)
+          should participate in the first round which is an online round from March 4th onwards available in this official
+          website of quest. All the participants are required to register in the link given below.
+          <br> The participants will get participation certificates.
+        </p>
+      </div>
+
+
+      <div class="instructions">
+        <h3>Instructions</h3>
+        <ul>
+          <li>The team should consist of one or two members.</li>
+          <li>If the team has 2 members , both of them should attempt the first round.</li>
+          <li>The selected candidates are called for second round.</li>
+          <li>We will contact the selected teams through your mobile numbers and mail ids given while registering.</li>
+          <li>Out of which only 4 teams are selected for third round which is going to be held on March 14th.</li>
+        </ul>
+      </div>
+
+
+
+      <div class="instructions">
+        <h3>Rules for online test</h3>
+        <ul>
+          <li>Do not use mobile phones while attempting the online round.</li>
+          <li>Read all the questions carefully.</li>
+          <li>First round consists of 15 questions.</li>
+          <li>The online round(first round) duration is 20 minutes.</li>
+          <li>Attempt all the questions</li>
+          <li>Each correct answer is rewarded with one mark.</li>
+          <li>No negative marking on any question , so attempt as many questions as you can.</li>
+          <li>The criteria of selection is the best of scores of team members(if two).</li>
+
+        </ul>
+      </div>
+
+
+      <p style="text-align: center; font-size: 15px; text-transform: uppercase;">
+
+        Come, participate and win exciting prizes.
         <br>
-        The participants will get participation certificates.
+        <br> MAKE YOUR TALENT SHINE THROUGH THE DAY.
+        <br>
+        <br> LET YOUR SKILLS WIN ITS WORTH.
+        <br>
+        <br>
       </p>
+
+
+    </div>
+
+    <div class="button_container">
+      <button class="button_register" id="register" data-link="https://goo.gl/forms/nXb8aAsqr5fCzwF33">Register</button>
     </div>
 
 
-    <div class="instructions">
-      <h3>Instructions</h3>
-      <ul>
-        <li>The team should consist of one or two members.</li>
-        <li>If the team has 2 members , both of them should attempt the first round.</li>
-        <li>The selected candidates are called for second round.</li>
-        <li>We will contact the selected teams through your mobile numbers and mail ids given while registering.</li>
-        <li>Out of which only 4 teams are selected for third round which is going to be held on March 14th.</li>
-      </ul>
+    <div class="contact">
+      <h3>Contact</h3>
+      <div class="member">
+        <h4 class="name">Aishwarya</h4>
+        <h4 class="phone">+91 8499032268</h4>
+      </div>
+      <div class="member">
+        <h4 class="name">Harika</h4>
+        <h4 class="phone">+91 9912040995</h4>
+      </div>
+      <div class="member">
+        <h4 class="name">Shivani</h4>
+        <h4 class="phone">+91 9866604319</h4>
+      </div>
+      <div class="member">
+        <h4 class="name">Deekshita</h4>
+        <h4 class="phone">+91 9030017559</h4>
+      </div>
+      <div class="member">
+        <h4 class="name">Priyanka</h4>
+        <h4 class="phone">+91 7032100454</h4>
+      </div>
+      <div class="member">
+        <h4 class="name">Indu</h4>
+        <h4 class="phone">+91 9515716217</h4>
+      </div>
     </div>
 
+    <div class="holder" id="holder">
 
+      <div class="card registration_card" id="registration_card">
 
-    <div class="instructions">
-      <h3>Rules for online test</h3>
-      <ul>
-        <li>Do not use mobile phones while attempting the online round.</li>
-        <li>Read all the questions carefully.</li>
-        <li>First round consists of 15 questions.</li>
-        <li>The online round(first round) duration is 20 minutes.</li>
-        <li>Attempt all the questions</li>
-        <li>Each correct answer is rewarded with one mark.</li>
-        <li>No negative marking on any question , so attempt as many questions as you can.</li>
-        <li>The criteria of selection is the best of scores of team members(if two).</li>
+        <h5 class="message" id="message"></h5>
 
-      </ul>
+        <form action="#" method="POST" name="registration">
+
+          <input type="text" name="name" placeholder="Name" />
+          <input type="number" name="phone" placeholder="Mobile number" />
+          <input type="text" name="college" placeholder="College" />
+          <input type="email" name="email" placeholder="Email ID" />
+
+          <input class="button_register" id="submit" type="submit" value="Submit">
+        </form>
+      </div>
     </div>
 
+  </section>
+  <footer>
 
-    <p style="text-align: center; font-size: 15px; text-transform: uppercase;">
+    <style>
+      .holder {
+        height: 100vh;
+        width: 100vw;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        background-color: rgba(0, 0, 0, 0.8);
+        overflow: hidden;
+      }
 
-      Come, participate and win exciting prizes.
-      <br>
-      <br>
-      MAKE YOUR TALENT SHINE THROUGH THE DAY.
-      <br>
-      <br>
+      .card {
+        min-width: 250px;
+        width: 30%;
+        max-width: 100%;
+        margin: 90px auto;
+        background-color: white;
+        max-height: 70vh;
+        box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5);
+        padding-bottom: 20px;
+        padding-top: 20px;
+        border-radius: 2px;
+      }
 
-      LET YOUR SKILLS WIN ITS WORTH.
-      <br>
-      <br>
-    </p>
+      @media (min-width:450px) {
+        .card {
+          min-width: 350px;
+        }
 
+        form input {
+          padding: 4px;
+        }
+      }
 
-  </div>
+      form {
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 5px;
+      }
 
-  <div class="button_container">
-    <button class="button_register" id="register" data-link = "https://goo.gl/forms/nXb8aAsqr5fCzwF33">Register</button>
-  </div>
+      form input {
+        display: block;
+        padding: 8px;
+        width: 100%;
+        font-size: 16px;
+        box-sizing: border-box;
+        margin-top: 20px;
+      }
 
+      input[type=submit] {
+        color: white;
+        background-color: #cc6633;
+        border: none;
+        border-radius: 2px;
 
-  <div class="contact">
-    <h3>Contact</h3>
-    <div class="member">
-      <h4 class="name">Aishwarya</h4>
-      <h4 class="phone">+91 8499032268</h4>
-    </div>
-    <div class="member">
-      <h4 class="name">Harika</h4>
-      <h4 class="phone">+91 9912040995</h4>
-    </div>
-    <div class="member">
-      <h4 class="name">Shivani</h4>
-      <h4 class="phone">+91 9866604319</h4>
-    </div>
-    <div class="member">
-      <h4 class="name">Deekshita</h4>
-      <h4 class="phone">+91 9030017559</h4>
-    </div>
-    <div class="member">
-      <h4 class="name">Priyanka</h4>
-      <h4 class="phone">+91 7032100454</h4>
-    </div>
-    <div class="member">
-      <h4 class="name">Indu</h4>
-      <h4 class="phone">+91 9515716217</h4>
-    </div>
-  </div>
-
-  <div class="holder" id="holder">
-
-    <div class="card registration_card" id="registration_card">
-
-      <h5 class="message" id="message"></h5>
-
-      <form action="#" method="POST" name="registration">
-
-        <input type="text" name="name" placeholder="Name"/>
-        <input type="number" name="phone" placeholder="Mobile number"/>
-        <input type="text" name="college" placeholder="College"/>
-        <input type="email" name="email" placeholder="Email ID"/>
-
-        <input class="button_register" id="submit" type="submit" value="Submit">
-      </form>
-    </div>
-  </div>
-
-</section>
-<footer>
-
-  <style>
-  .holder {
-    height: 100vh;
-    width: 100vw;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 10;
-    background-color: rgba(0, 0, 0, 0.8);
-    overflow: hidden;
-  }
-
-  .card {
-    min-width: 250px;
-    width: 30%;
-    max-width: 100%;
-    margin: 90px auto;
-    background-color: white;
-    max-height: 70vh;
-    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5);
-    padding-bottom: 20px;
-    padding-top: 20px;
-    border-radius: 2px;
-  }
-
-  @media (min-width:450px) {
-    .card {
-      min-width: 350px;
-    }
-
-    form input {
-      padding: 4px;
-    }
-  }
-
-  form {
-    width: 90%;
-    margin: 0 auto;
-    padding-top: 5px;
-  }
-
-  form input {
-    display: block;
-    padding: 8px;
-    width: 100%;
-    font-size: 16px;
-    box-sizing: border-box;
-    margin-top: 20px;
-  }
-
-  input[type=submit] {
-    color: white;
-    background-color: #cc6633;
-    border: none;
-    border-radius: 2px;
-
-    transition: all;
-    transition-duration: 0.2s;
-    transition-delay: 0s;
-    transition-timing-function: linear;
-  }
+        transition: all;
+        transition-duration: 0.2s;
+        transition-delay: 0s;
+        transition-timing-function: linear;
+      }
 
 
-  input[type=submit]:hover {
-    background-color: #cc6645;
-  }
+      input[type=submit]:hover {
+        background-color: #cc6645;
+      }
 
-  .message {
-    margin: 0px 20px;
-    text-align: center;
-    padding: 10px;
-    color: #a94442;
-    background-color: #f2dede;
-    border-color: #ebccd1;
-    border-radius: 5px;
+      .message {
+        margin: 0px 20px;
+        text-align: center;
+        padding: 10px;
+        color: #a94442;
+        background-color: #f2dede;
+        border-color: #ebccd1;
+        border-radius: 5px;
 
-    display: none;
-  }
-
-
-  .holder {
-    display: none;
-  }
-
-  .registration_card {
-    display: none;
-  }
-
-  </style>
+        display: none;
+      }
 
 
-</footer>
+      .holder {
+        display: none;
+      }
 
-<script type="text/javascript" rel="javascript" src="../../js/time.js"></script>
+      .registration_card {
+        display: none;
+      }
+    </style>
+
+
+  </footer>
+
+  <script type="text/javascript" rel="javascript" src="../../js/time.js"></script>
 
 </body>
+
 </html>
